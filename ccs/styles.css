@@ -48,7 +48,19 @@ body {
     font-family: 'Sarala', sans-serif;
     color: #ffdfdf;
     font-weight: 400;
-    font-size: 20px
+    font-size: 20px;
+    border:none;
+    border-radius: 4px;
+    padding: 1px 20px; 
+    background-color: #4d4143;
+    cursor: pointer;
+    perspective: 1000px;
+}
+
+.cabecalho-menu-item:hover {
+    background-color: rgb(233, 233, 62);
+    transform: rotateY('10deg');
+    color: #777071;
 }
 
 .conteudo {
