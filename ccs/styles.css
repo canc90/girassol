@@ -14,7 +14,8 @@ body {
     background-position: center;
     background-attachment: fixed;
     padding: 20px;
-
+    position: relative;
+    min-height: 100vh;
 }
 
 .cabecalho {
@@ -24,16 +25,16 @@ body {
     justify-content: space-around;
     padding: 20px;
 
-  
-    
+
+
 }
 
 .cabecalho-image {
     height: 72px;
     margin-right: 700px;
-   
-    
-    
+
+
+
 }
 
 .cabecalho-menu {
@@ -41,7 +42,7 @@ body {
     gap: 32px;
     cursor: pointer;
 
-    
+
 }
 
 .cabecalho-menu-item {
@@ -49,9 +50,9 @@ body {
     color: #ffdfdf;
     font-weight: 400;
     font-size: 20px;
-    border:none;
+    border: none;
     border-radius: 4px;
-    padding: 1px 20px; 
+    padding: 1px 20px;
     background-color: #4d4143;
     cursor: pointer;
     perspective: 1000px;
@@ -85,7 +86,7 @@ body {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 56px;
-    color: rgb(233, 233, 62); 
+    color: rgb(233, 233, 62);
     margin-left: 30px;
 }
 
@@ -118,12 +119,12 @@ body {
 }*/
 
 .conteudo-principal-imagem {
-    
+
     max-height: 300px;
     max-width: 620px;
     display: flex;
-    align-self: self-end;    
-    
+    align-self: self-end;
+
 }
 
 .conteudo-secundario {
@@ -172,8 +173,8 @@ body {
 
 
 footer {
-    
-   margin-top: 20px;
+
+    margin-top: 20px;
     color: #e4dcdc;
     padding: 20px;
     text-align: center;
